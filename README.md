@@ -12,7 +12,7 @@ See [Ca] (https://youtu.be/tfTLxDrZ6FQ)
 
 ## Screenshots
 
-<img src="screenshots/welcom.png" height="400" alt="Screenshot"/>
+<img src="screenshots/welcome.png" height="400" alt="Screenshot"/>
 <img src="screenshots/wtoc.png" height="400" alt="Screenshot"/>
 <img src="screenshots/wtoc2.png" height="400" alt="Screenshot"/>
 <img src="screenshots/wtoc3.png" height="400" alt="Screenshot"/>
