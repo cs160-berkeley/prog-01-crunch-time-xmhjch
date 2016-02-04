@@ -12,7 +12,22 @@ See [Ca] (https://youtu.be/tfTLxDrZ6FQ)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/welcom.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtoc.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtoc2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtoc3.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtoc4.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtoc5.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtow.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtow2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtow3.png" height="400" alt="Screenshot"/>
+<img src="screenshots/wtow4.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ctow.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ctow1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ctow2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/weight-setting.png" height="400" alt="Screenshot"/>
+<img src="screenshots/weight-setting2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/weight-setting3.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
