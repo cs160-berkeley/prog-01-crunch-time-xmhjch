@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hjc.ca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Choose_w_1" />
+        <activity android:name=".Input_1" />
+        <activity android:name=".output_1" />
+        <activity android:name=".Choose_w_2" />
+        <activity android:name=".Input_2" />
+        <activity android:name=".Choose_w_3" />
+        <activity android:name=".output_2" />
+        <activity android:name=".Input_3" />
+        <activity android:name=".Choose_4" />
+        <activity android:name=".output_4" />
+        <activity android:name=".set_weight" />
+        <activity android:name=".reciever"></activity>
+    </application>
+
+</manifest>

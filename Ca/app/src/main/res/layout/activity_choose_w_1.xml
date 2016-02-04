@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.hjc.ca.Choose_w_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffcf2f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the Workout"
+            android:textSize="30sp"
+            android:padding="50dp"
+            android:textColor="#ffffff" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:text="Pushup"
+                    android:drawableTop="@drawable/pushup"
+                    android:id="@+id/pushup_1"
+                    android:onClick="clickPS_1" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:text="Situp"
+                    android:drawableTop="@drawable/situp"
+                    android:id="@+id/situp_1"
+                    android:onClick="clickSU_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/jumpingjacks"
+                    android:text="Jumping Jacks"
+                    android:id="@+id/jj_1"
+                    android:onClick="clickjj_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/jogging"
+                    android:text="Jogging"
+                    android:id="@+id/jog_1"
+                    android:onClick="clickJ_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/squats"
+                    android:text="Squats"
+
+                    android:onClick="clickSq_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/leglift"
+                    android:text="Leg-lift"
+
+                    android:onClick="clickLL_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/plank"
+                    android:text="Plank"
+
+                    android:onClick="clickPl_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/pullup"
+                    android:text="Pullup"
+
+                    android:onClick="clickPu_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/cycling"
+                    android:text="Cycling"
+
+                    android:onClick="clickCy_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/walking"
+                    android:text="Walking"
+
+                    android:onClick="clickW_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/swimming"
+                    android:text="Swimming"
+
+                    android:onClick="clickSw_1"/>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:drawableTop="@drawable/stairclimbing"
+                    android:text="Stair-Climbing"
+
+                    android:onClick="clickSC_1"/>
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

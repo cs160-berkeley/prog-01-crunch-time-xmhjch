@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hjc.ca.Welcome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:padding="0dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="Workout to Calories"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:drawableRight="@drawable/first_row"
+                android:id="@+id/calories_start_button"
+                android:onClick="openChooseW1"
+                android:background="#ffcf2f" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:padding="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="Workout Comparison"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/second_row"
+                android:id="@+id/compare_start_button"
+                android:onClick="openCompareW1"
+                android:background="#a1fe1f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:padding="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="Calories to Workout"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:drawableRight="@drawable/third_row"
+                android:id="@+id/temp_start_button"
+                android:onClick="openTemp"
+                android:background="#fd6a4d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="0dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="Weight Setting"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:onClick="setweight"
+                android:background="#4da5fd" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
